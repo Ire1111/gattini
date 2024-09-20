@@ -1,0 +1,100 @@
+/* Stile di base */
+body {
+    font-family: 'Helvetica Neue', Arial, sans-serif;
+    line-height: 1.8;
+    margin: 0;
+    padding: 0;
+    background-color: #f3f4f6;
+    color: #333;
+}
+
+/* Stile dell'header e dell'hero */
+header {
+    background-color: #4bb4da;
+    color: white;
+    text-align: center;
+    padding: 0;
+}
+
+.hero {
+    background: url('immagini/hero-bg.jpg') no-repeat center center/cover;
+    padding: 100px 20px;
+    color: white;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.2);
+}
+
+h1 {
+    font-size: 3em;
+    margin: 0;
+    font-weight: 700;
+}
+
+h2 {
+    color: #ff6b6b;
+    font-size: 2em;
+}
+
+/* Stile delle sezioni */
+section {
+    margin: 40px auto;
+    padding: 20px;
+    max-width: 900px;
+    background-color: white;
+    border-radius: 8px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+.intro-image, .content-image, .benefits-image {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+    margin-top: 20px;
+}
+
+p {
+    margin-bottom: 20px;
+    font-size: 1.1em;
+    color: #555;
+}
+
+footer {
+    text-align: center;
+    padding: 20px;
+    background-color: #4bb4da;
+    color: white;
+    margin-top: 40px;
+}
+
+footer p {
+    margin: 0;
+    font-size: 1em;
+}
+
+/* Aggiungi colori vivaci */
+h2 {
+    color: #4bb4da;
+}
+
+a {
+    color: #ff6b6b;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+/* Media Queries per la responsività */
+@media (max-width: 768px) {
+    h1 {
+        font-size: 2.5em;
+    }
+
+    section {
+        padding: 15px;
+    }
+
+    .intro-image, .content-image, .benefits-image {
+        margin-top: 15px;
+    }
+}
